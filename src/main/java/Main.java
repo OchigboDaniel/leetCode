@@ -1,4 +1,5 @@
 import problem.twoSum.BruteForce;
+import problem.twoSum.Scalable;
 
 import java.util.Arrays;
 
@@ -6,10 +7,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        BruteForce problem = new BruteForce();
+        Scalable scalable = new Scalable();
 
-        int[] nums = {2,3,1};
-        System.out.println(Arrays.toString(problem.twoSum(nums, 4)));
+        int[] nums = {3,2,4};
+        System.out.println(Arrays.toString(scalable.twoSum(nums,6)));
     }
 
 

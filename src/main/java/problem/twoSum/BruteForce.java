@@ -1,6 +1,6 @@
 package problem.twoSum;
 
-public class BruteForce {
+public class BruteForce implements ISolution {
     public int[] twoSum(int[] nums, int target) {
 
         // loop through the array
