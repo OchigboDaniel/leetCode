@@ -13,7 +13,6 @@ public class ContainDuplicate {
         boolean result = bruteForce.containsDuplicate(new int[]{1,2,3,1});
         assertEquals(result, true);
     }
-
     @Test
     void example2(){
         boolean result = bruteForce.containsDuplicate(new int[]{1,2,3,4});
